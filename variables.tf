@@ -3,8 +3,8 @@ variable "federatorai_recommendations" {
   type        = map(map(map(string)))
 }
 
-variable "federatorai_cluster_id" {
-  description = "cluster id"
+variable "federatorai_cluster_name" {
+  description = "cluster name"
   type        = string
 }
 

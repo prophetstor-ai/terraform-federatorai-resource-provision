@@ -3,7 +3,7 @@ output "recommended_cpu_limit" {
   value       = local.rec_cpu_limit
 }
 
-output "recommended_mem_limit" {
+output "recommended_memory_limit" {
   description = "Recommended memory limit for the Kubernetes controller resource or namespace quota"
   value       = local.rec_mem_limit
 }
@@ -13,7 +13,7 @@ output "recommended_cpu_request" {
   value       = local.rec_cpu_request
 }
 
-output "recommended_mem_request" {
+output "recommended_memory_request" {
   description = "Recommended memory request for the Kubernetes controller resource or namespace quota"
   value       = local.rec_mem_request
 }
